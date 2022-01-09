@@ -39,7 +39,7 @@ header {
   border-radius: 12px;
   padding: 12px;
   display: grid;
-  color: whitesmoke;
+  color: white;
 }
 ul {
   list-style-type: none;
@@ -54,7 +54,7 @@ footer {
   justify-items: center;
   align-items: center;
   background-color: tomato;
-  color: whitesmoke;
+  color: white;
   border-radius: 12px;
   padding: 10px;
 }
