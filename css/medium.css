@@ -1,0 +1,33 @@
+@media only screen and (min-width: 37.5em) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .child3 {
+    grid-column: span 2;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  header img {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+    margin-left: 1rem;
+  }
+
+  .mainh2,
+  .warning,
+  .mainlinks {
+    grid-column: 1 / 3;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+}

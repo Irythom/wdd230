@@ -9,13 +9,16 @@
       content="Assignment portal for Ryan Weinheimer in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
     />
     <title>Ryan Weinheimer</title>
-    <link rel="stylesheet" href="css\style.css" />
+    <link rel="stylesheet" href="css\normalize.css" />
+    <link rel="stylesheet" href="css\small.css" />
+    <link rel="stylesheet" href="css\medium.css" />
     <script defer src="javascript\dates.js"></script>
   </head>
   <body>
     <header>
       <picture>
         <img
+          class="mainimg"
           alt="Image of author and his niece"
           src="images\ryan-and-niece.jpg"
         />
@@ -23,10 +26,14 @@
       <h1>Ryan Weinheimer</h1>
     </header>
     <main>
-      <h2>WDD 230: Assignment Portal</h2>
-      <ul>
-        <li>Lesson 02:&nbsp;<a href="">Title</a></li>
-        <li>Lesson 03:&nbsp;<a href="">Title</a></li>
+      <h2 class="mainh2">WDD 230: Assignment Portal</h2>
+      <ul class="mainlinks">
+        <li>
+          Lesson 02:&nbsp;<a href="lesson2\design-principles.html"
+            >Design Principles</a
+          >
+        </li>
+        <li>Lesson 03:&nbsp;<a href="">Website Planning</a></li>
         <li>Lesson 04:&nbsp;<a href="">Title</a></li>
         <li>Lesson 05:&nbsp;<a href="">Title</a></li>
         <li>Lesson 06:&nbsp;<a href="">Title</a></li>
@@ -36,7 +43,9 @@
         <li>Lesson 10:&nbsp;<a href="">Title</a></li>
         <li>Lesson 11:&nbsp;<a href="">Title</a></li>
       </ul>
-      <p>Some lessons may need more than one activity/assignment link.</p>
+      <p class="warning">
+        Some lessons may need more than one activity/assignment link.
+      </p>
     </main>
     <footer>
       ©<span id="year"></span> .:| Ryan T. Weinheimer |:.
