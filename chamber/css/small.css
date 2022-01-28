@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  background-color: #d34e24;
+}
+
+body {
+  font-family: "Montserrat", Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+
+.headings {
+  margin-left: 15px;
+}
+
+header,
+main,
+footer,
+h1 {
+  padding: 1em;
+  text-align: center;
+  color: var(--paragraph-color-on-color);
+  background-color: var(--text-background-color);
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+header,
+footer {
+  background-color: black;
+  border-radius: 12px;
+}
+h1,
+footer,
+.com {
+  color: white;
+}
+
+.navigation {
+  width: 100%;
+  text-decoration-color: white;
+  text-align: center;
+  margin: 0 auto;
+}
+
+nav {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 7px;
+}
+
+.cityLogo {
+  max-width: 100px;
+  max-height: auto;
+  border-radius: 7px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav div {
+  flex: 1 1 auto;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.com {
+  margin-top: -15px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.social {
+  display: flex;
+}
+
+.facebookLogo,
+.instagramLogo {
+  max-width: 50px;
+  max-height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.navigation div:not(:first-child) {
+  display: none;
+}
+
+.responsive div:not(:first-child) {
+  display: block;
+}

@@ -9,26 +9,42 @@
       content="Week 3 assignment for Ryan Weinheimer in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
     />
     <title>Eagle Mountain Chamber of Commerce</title>
-    <link rel="stylesheet" href="lesson3-css/3-small.css" />
-    <link rel="stylesheet" href="lesson3-css/3-medium.css" />
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/javascript.js"></script>
   </head>
   <body>
     <header>
-      <picture>
-        <img
-          src="lesson3-img/logo.jpg"
-          alt="Eagle Mountain Chamber of Commerce Logo"
-        />
-      </picture>
-      <h1>Homepage</h1>
-      <section class="navigation">
-        <nav>
-          <div><a href="index.html"> Home </a></div>
-          <div><a href="target-audience.html">Target Audience</a></div>
-          <div><a href="color-scheme.html">Color Scheme</a></div>
-          <div><a href="typography.html">Typography</a></div>
-        </nav>
-      </section>
+      <div class="logo">
+        <picture>
+          <img
+            src="images/logo.jpg"
+            alt="Eagle Mountain Chamber of Commerce Logo"
+            class="cityLogo"
+          />
+        </picture>
+        <section class="headings">
+          <h1>Eagle Mountain</h1>
+          <p class="com">Chamber of Commerce</p>
+        </section>
+
+        <div class="social">
+          <a class="facebookLogo" href="https://www.facebook.com/"
+            ><img src="images/facebook.jpg" alt="Facebook Logo"
+          /></a>
+          <a class="instagramLogo" href="https://www.instagram.com/"
+            ><img src="images/Instagram.jpg" alt="Instagram Logo"
+          /></a>
+        </div>
+      </div>
+      <nav class="navigation">
+        <div><a href="#" onclick="toggleMenu()"> &#9776; Menu</a></div>
+        <div><a href="index.html"> Discover </a></div>
+        <div><a href="target-audience.html">Directory</a></div>
+        <div><a href="color-scheme.html">Join</a></div>
+        <div><a href="typography.html">Contact</a></div>
+      </nav>
     </header>
     <h2>Chosen Domain</h2>
     <p>emchamberofcommerce.com</p>
