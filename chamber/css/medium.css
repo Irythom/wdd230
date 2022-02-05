@@ -74,4 +74,8 @@
   #join {
     display: block;
   }
+
+  .navigation {
+    flex-direction: row;
+  }
 }
