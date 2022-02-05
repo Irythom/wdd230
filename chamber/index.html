@@ -9,6 +9,7 @@
       content="Week 3 assignment for Ryan Weinheimer in WDD 230: Web Frontend Development at Brigham Young University - Idaho"
     />
     <title>Eagle Mountain Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/small.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
@@ -100,6 +101,18 @@
         <li><a href="typography.html">Contact</a></li>
       </ul>
     </header>
+    <div class="banner">
+      <div class="bannercontent">
+        <div class="eaglemountain">
+          <img src="images/eaglemountain.jpg" alt="" />
+        </div>
+        <section class="bannertext">
+          🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+          p.m.
+        </section>
+        <style id="bannertextstyle"></style>
+      </div>
+    </div>
     <main>
       <div id="hero" class="gray-box">
         <h2>Hero with site name and call to action</h2>
@@ -129,46 +142,46 @@
         </div>
       </div>
     </main>
-  </body>
-  <footer>
-    <div id="footer-top">
-      <div class="footer-logo">
-        <img
-          src="images/logo.jpg"
-          alt="Eagle Mountain Chamber of Commerce Logo"
-        />
-        <div id="footer-info">
-          <div>
-            <h2 id="footer-h2">
-              Eagle Mountain Chamber <br />
-              of Commerce
-            </h2>
-            <p class="footer-p">
-              3477 E Ridge Route, <br />
-              Eagle Mountain,<br />
-              UT 84005-4688 USA
-            </p>
+    <footer id="footer2">
+      <div id="footer-top">
+        <div class="footer-logo">
+          <img
+            src="images/logo.jpg"
+            alt="Eagle Mountain Chamber of Commerce Logo"
+          />
+          <div id="footer-info">
+            <div>
+              <h2 id="footer-h2">
+                Eagle Mountain Chamber <br />
+                of Commerce
+              </h2>
+              <p class="footer-p">
+                3477 E Ridge Route, <br />
+                Eagle Mountain,<br />
+                UT 84005-4688 USA
+              </p>
+            </div>
           </div>
         </div>
+        <div>
+          <p id="contact-info" class="footer-p">
+            info@emcc.org <br />
+            +1(801)456-7092 <br />
+            <a
+              id="google-maps"
+              href="https://www.google.com/maps/place/3477+E+Ridge+Rte+Rd,+Eagle+Mountain,+UT+84005/@40.3644345,-111.9793183,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7c4a6edbb66d:0x28af824051b40640!8m2!3d40.3644304!4d-111.9771296"
+              ><img src="images/google-maps.jpg" alt="google maps link"
+            /></a>
+          </p>
+        </div>
       </div>
-      <div>
-        <p id="contact-info" class="footer-p">
-          info@emcc.org <br />
-          +1(801)456-7092 <br />
-          <a
-            id="google-maps"
-            href="https://www.google.com/maps/place/3477+E+Ridge+Rte+Rd,+Eagle+Mountain,+UT+84005/@40.3644345,-111.9793183,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7c4a6edbb66d:0x28af824051b40640!8m2!3d40.3644304!4d-111.9771296"
-            ><img src="images/google-maps.jpg" alt="google maps link"
-          /></a>
+      <div id="bottom">
+        <p class="footer-p">
+          ©<span id="year"></span> Eagle Mountain Chamber |
+          <strong>Ryan Weinheimer</strong> | WDD 230 Project| Last Modification:
+          <span id="lastmod"></span>
         </p>
       </div>
-    </div>
-    <div id="bottom">
-      <p class="footer-p">
-        ©<span id="year"></span> Eagle Mountain Chamber |
-        <strong>Ryan Weinheimer</strong> | WDD 230 Project| Last Modification:
-        <span id="lastmod"></span>
-      </p>
-    </div>
-  </footer>
+    </footer>
+  </body>
 </html>
