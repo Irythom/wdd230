@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/javascript.js"></script>
+    <script defer src="js/windchill.js"></script>
   </head>
   <body>
     <header>
@@ -104,9 +105,17 @@
     <style id="bannertextstyle"></style>
     <div class="banner">
       <div class="bannercontent">
-        <div class="eaglemountain">
-          <img src="images/eaglemountain.jpg" alt="" />
-        </div>
+        <picture class="eaglemountain">
+          <source
+            srcset="images/heroimgMedium.webp"
+            media="(min-width: 600px) and (max-width: 999px)"
+          />
+          <source
+            srcset="images/heroimgLarge.webp"
+            media="(min-width: 1000px)"
+          />
+          <img src="images/heroimgSmall.webp" alt="Hero image" />
+        </picture>
         <section class="bannertext">
           🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
           p.m.
@@ -122,6 +131,10 @@
       </div>
       <div id="weather" class="gray-box">
         <h2>Weather</h2>
+        <p>Temperature: <span id="t">40</span>°F</p>
+        <p>Wind Speed: <span id="s">10</span>mph</p>
+        <p>&nbsp</p>
+        <p>Wind Chill: <span id="w"></span></p>
       </div>
       <div id="news" class="gray-box">
         <h2>News Release</h2>
@@ -146,7 +159,7 @@
       <div id="footer-top">
         <div class="footer-logo">
           <img
-            src="images/logo.jpg"
+            src="images/logo.webp"
             alt="Eagle Mountain Chamber of Commerce Logo"
           />
           <div id="footer-info">
