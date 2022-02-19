@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/javascript.js"></script>
-    <script defer src="js/windchill.js"></script>
+    <script defer src="js/daysbetween.js"></script>
+    <script defer src="js/imagehandling.js"></script>
     <style id="bannertextstyle"></style>
   </head>
   <body>
@@ -104,57 +105,133 @@
         <li><a href="typography.html">Contact</a></li>
       </ul>
     </header>
-    <div class="banner">
-      <div class="bannercontent">
-        <picture class="eaglemountain">
-          <source
-            srcset="images/heroimgMedium.webp"
-            media="(min-width: 600px) and (max-width: 999px)"
-          />
-          <source
-            srcset="images/heroimgLarge.webp"
-            media="(min-width: 1000px)"
-          />
-          <img src="images/heroimgSmall.webp" alt="Hero image" />
-        </picture>
-        <div class="bannertext">
-          <p>
-            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
-            p.m.
+    <main>
+      <h1 id="discoverh1">Discover Eagle Mountain</h1>
+      <div id="discovercontent">
+        <div id="discoverpic1">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/emsign.jpg"
+              alt="Eagle Mountain city sign"
+          /></picture>
+          <p class="discpicp">Welcome to Eagle Mountain!</p>
+        </div>
+        <div id="discoverpic2">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/cedarvalley.jpg"
+              alt="Cedar Valley Highschool"
+            />
+          </picture>
+          <p class="discpicp">
+            Eagle Mountain's Cedar Valley Highschool opened in 2019. Home of the
+            Aviators.
           </p>
         </div>
-      </div>
-    </div>
-    <main id="indexmain">
-      <div id="hero" class="gray-box">
-        <h2>Hero with site name and call to action</h2>
-      </div>
-      <div id="event" class="gray-box">
-        <h2>Event</h2>
-      </div>
-      <div id="weather" class="gray-box">
-        <h2>Weather</h2>
-        <p>Temperature: <span id="t">40</span>°F</p>
-        <p>Wind Speed: <span id="s">10</span>mph</p>
-        <p>&nbsp;</p>
-        <p>Wind Chill: <span id="w"></span></p>
-      </div>
-      <div id="news" class="gray-box">
-        <h2>News Release</h2>
-      </div>
-      <div id="join" class="gray-box">
-        <h2>Join</h2>
-      </div>
-
-      <div id="outside-box">
-        <div id="inner-box1" class="inner-boxes">
-          <h2>Spotlight 1</h2>
+        <div id="discoverpic3">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/corybwride.jpg"
+              alt="Cory B. Wride Park"
+            />
+          </picture>
+          <p class="discpicp">
+            Cory B Wride Memorial Park was named after a police officer killed
+            in the line of duty. At this park you will find a giant playground,
+            4 baseball diamonds, a splash pad, zip-lines, swings, basketball
+            courts, tennis courts, pickleball courts, pavilions, along with a
+            festival field.
+          </p>
         </div>
-        <div id="inner-box2" class="inner-boxes">
-          <h2>Spotlight 2</h2>
+        <div id="discoverpic4">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/empetroglyphs.jpg"
+              alt="Eagle Mountain Petroglyphs"
+            />
+          </picture>
+          <p class="discpicp">
+            The Eagle Mountain Petryoglyphs can be found all over. The most
+            popular of these are named the Three Warriors. As recently as the
+            mid-1800s, the Ute Indians inhabited Utah Valley and fished Utah
+            lake extensively, with the lake being a substantial food source. The
+            area around Utah lake is home to many petroglyphs.
+          </p>
         </div>
-        <div id="inner-box3" class="inner-boxes">
-          <h2>Spotlight 3</h2>
+        <div id="discoverpic5">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/emrbikepark.jpg"
+              alt="Eagle Mountain Ranch Bike Park"
+            />
+          </picture>
+          <p class="discpicp">
+            The Eagle Mountain Ranch Bike Park offers the best stunt biking
+            within Utah county. From a skills park to pump tracks, jump lines,
+            and multiple techincal trails, there is plenty to do for both the
+            inexperienced, and veteran riders
+          </p>
+        </div>
+        <div id="discoverpic6">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/emskate.jpg"
+              alt="Eagle Mountain Skate Park"
+          /></picture>
+          <p class="discpicp">
+            The Eagle Mountain Skate Park is filled with ramps, rails, a
+            halfpipe, a bowl, and a bunch of benches, it's the best place in
+            Eagle Mountain to sharpen your skating skills.
+          </p>
+        </div>
+        <div id="discoverpic7">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/samphitheater.jpg"
+              alt="Silver Lake Amphitheater"
+          /></picture>
+          <p class="discpicp">
+            The Silver Lake Amphitheater is a great place to take in a concert,
+            movie nights in the park, and a variety of other events. There is
+            plenty of seating on the grass surrounding the amphitheater and
+            standing room in front of the stage.
+          </p>
+        </div>
+        <div id="discoverpic8">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/snoasis.jpg"
+              alt="Snoasis Snowcone Shack"
+          /></picture>
+          <p class="discpicp">
+            The Snoasis Snowcone Shack is a popular location for locals to flock
+            to during those hot summer days. Providing a plethora of commonly
+            known flavors, along with some Snoasis originals, there are plenty
+            of flavors to try!
+          </p>
+        </div>
+        <div id="discoverpic9">
+          <picture>
+            <img
+              src="images/placeholder.jpg"
+              data-src="images/theranchesgolf.jpg"
+              alt="The Ranches Golf Club"
+            />
+          </picture>
+          <p class="discpicp">
+            The Ranches Golf Club is a spectacular 18-hole championship facility
+            nestled in the hillside valley between Lehi and Eagle Mountain.
+            Featuring a Western theme, The Ranches Golf Club offers golfers a
+            relaxing retreat with acres of elbow room to enjoy.
+          </p>
         </div>
       </div>
     </main>
@@ -192,6 +269,9 @@
         </div>
       </div>
       <div id="bottom">
+        <p class="footer-p">
+          Time between last visit: <span id="visits"></span>
+        </p>
         <p class="footer-p">
           ©<span id="year"></span> Eagle Mountain Chamber |
           <strong>Ryan Weinheimer</strong> | WDD 230 Project| Last Modification:

@@ -1,5 +1,5 @@
 @media only screen and (min-width: 600px) {
-  main {
+  #indexmain {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 2fr 1fr;
@@ -45,6 +45,10 @@
   #weather {
     grid-row: 5 / 6;
     width: auto;
+  }
+
+  #discovercontent img:hover {
+    box-shadow: 5px 5px 5px #999;
   }
 
   #event {

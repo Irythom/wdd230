@@ -13,13 +13,17 @@
     height: 75%;
   }
 
-  main {
+  #indexmain {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 2fr 1fr;
     column-gap: 15px;
     row-gap: 15px;
     padding: 15px;
+  }
+
+  #discovercontent img:hover {
+    box-shadow: 5px 5px 5px #999;
   }
 
   #outside-box {
@@ -44,6 +48,11 @@
     margin-left: 0px;
     height: 100%;
     width: 100%;
+  }
+
+  #discoverh1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
   }
 
   #weather {

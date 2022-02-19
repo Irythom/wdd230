@@ -61,6 +61,14 @@ main {
   margin-left: 0.5rem;
 }
 
+#discoverh1 {
+  padding-top: 50px;
+  padding-bottom: 60px;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
 .headings h1 {
   font-size: 1.5rem;
 }
@@ -214,11 +222,28 @@ li a {
 }
 
 .bannercontent img {
+  width: 100%;
+}
+
+#discovercontent img {
+  width: 75%;
+  border-radius: 7px;
+  border: 1px solid #ccc;
+}
+
+.bannercontent img,
+#discovercontent img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
   height: auto;
+}
+
+.discpicp {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 75%;
 }
 
 .bannertext {
