@@ -16,4 +16,4 @@ if (lastvisit && wholeDays === 0) {
 	lastVisitDisplay.textContent = wholeDays;
 }
 
-localStorage.setItem("lastvisit", Date.now() - 983423324888 );
+localStorage.setItem("lastvisit", Date.now());
