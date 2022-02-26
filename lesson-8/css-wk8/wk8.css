@@ -1,0 +1,50 @@
+html {
+  font-family: "Ubuntu", sans-serif;
+  color: #ffffff;
+}
+
+#header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 2px solid rgb(102, 3, 3);
+  letter-spacing: 1px;
+  font-size: 0.9rem;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+thead th,
+tfoot td {
+  background-color: rgb(146, 15, 15);
+}
+
+td,
+th {
+  border: 1px solid #ffffff;
+  padding: 10px;
+}
+
+th {
+  background-color: rgb(116, 3, 3);
+}
+
+td {
+  text-align: center;
+}
+
+#bigmoney {
+  background-color: rgb(116, 3, 3);
+}
+
+tr:nth-child(even) td {
+  background-color: #9d4646;
+}
+
+tr:nth-child(odd) td {
+  background-color: #b96767;
+}
