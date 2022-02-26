@@ -1,19 +1,27 @@
-const lastVisitDisplay = document.querySelector("#visits");
+const lastVisit = document.querySelector("#visits");
 
-const lastvisit = localStorage.getItem("lastvisit");
+// get the timestamp from the users lastvisit from localStorage
+const lastvisit = Number(localStorage.getItem("lastvisit"));
 
-const factor = 1000 * 60 * 60 * 24;
+// math to convert milliseconds to days
+const FACTOR = 1000 * 60 * 60 * 24;//
 
-const daysbetween = Date.now() - lastvisit;
+// Subtract the last visit from the current visit or time
+const currentvisit = Date.now() - lastvisit;
 
-const numberOfDays = daysbetween / factor;
-const wholeDays = Math.round(numberOfDays)
+// Math to get the number of days
+const daysbetween = currentvisit / FACTOR;
 
-if (!lastvisit) lastVisitDisplay.textContent = `This is your first visit!`;
-if (lastvisit && wholeDays === 0) {
-	lastVisitDisplay.textContent = 'You have already visited today';
+const firstMessage = `Welcome back! It has been ${Math.round(daysbetween)} days since your last visit.`
+const repeatMessage = 'Welcome, This is your first visit.'
+
+// display to the page how many days since the user's last visit
+if (lastvisit !== 0) {
+  lastVisit.textContent = firstMessage;
 } else {
-	lastVisitDisplay.textContent = wholeDays + " days";
+  lastVisit.textContent = repeatMessage;
 }
 
-localStorage.setItem("lastvisit", Date.now());
+
+// set the localStorage with a time stamp to the users current visit to the doscover page
+localStorage.setItem('lastvisit', Date.now())
