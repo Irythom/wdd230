@@ -216,6 +216,7 @@ textarea {
 }
 
 #joinBtn {
+  grid-column: 1/3;
   text-align: center;
 }
 
