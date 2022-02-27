@@ -82,4 +82,9 @@
   .navigation {
     flex-direction: row;
   }
+
+  fieldset {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
