@@ -13,7 +13,7 @@ if (!lastvisit) lastVisitDisplay.textContent = `This is your first visit!`;
 if (lastvisit && wholeDays === 0) {
 	lastVisitDisplay.textContent = 'You have already visited today';
 } else {
-	lastVisitDisplay.textContent = wholeDays;
+	lastVisitDisplay.textContent = wholeDays + " days";
 }
 
 localStorage.setItem("lastvisit", Date.now());
