@@ -1,0 +1,48 @@
+body {
+  max-width: 65em;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+main {
+  background-color: #cacaca;
+  padding: 10px;
+  box-shadow: 1px 1px 15px 5px rgb(194, 192, 192);
+}
+
+.cards {
+  background-color: #cacaca;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+h1,
+h2 {
+  color: rgb(10, 37, 85);
+}
+h1 {
+  font-size: 2.5em;
+}
+
+section {
+  background-color: rgb(136, 228, 232);
+  border: 1px solid rgb(70, 116, 201);
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  box-shadow: 5px 5px 10px 1px #747474;
+}
+
+section img {
+  width: 95%;
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 250px;
+  max-height: 320px;
+}
+
+footer {
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
