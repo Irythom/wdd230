@@ -87,4 +87,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
+  .mainDirectory > div.list > section {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
 }
