@@ -1,0 +1,89 @@
+{
+    "directory":[
+{
+    "name":"Quench It!",
+    "address":"4095 Pony Express Parkway #11",
+    "phone":"801-789-2022",
+    "website":"https://quenchitsoda.com/",
+    "logo":"images/quenchit.webp"
+},
+{
+    "name":"The Ranches Golf Club",
+    "address":"4128 E.  Clubhouse Ln.",
+    "phone":"801-789-8100",
+    "website":"https://theranchesgolfclub.com/",
+    "logo":"images/golfclublogo.webp"
+},
+{
+    "name":"Bubba's Candy Shop",
+    "address":"4094 Pony Express Parkway #10",
+    "phone":"801-347-2018",
+    "website":"www.BubbasCandy.com",
+    "logo":"images/candyshop.webp"
+},
+{
+    "name":"Jiffy Lube",
+    "address":"4019 E Pony Express Pkwy",
+    "phone":"801-789-4166",
+    "website":"https://www.jiffylube.com/",
+    "logo":"images/jiffylube.webp"
+},
+{
+    "name":"Ridley's Grocery Store and Pharmacy",
+    "address":"894 5th St",
+    "phone":"801-789-4997",
+    "website":"https://shopridleys.com/home.php",
+    "logo":"images/ridleys.webp"
+},
+{
+    "name":"Six Sisters Deli & Grille",
+    "address":"3535 Ranches Pkwy",
+    "phone":"801-789-4700",
+    "website":"http://www.sixsistersdeli.com/",
+    "logo":"images/sixsisters.webp"
+},
+{
+    "name":"Vasa Fitness",
+    "address":"1532 N Exchange Drive",
+    "phone":"801-766-8272",
+    "website":"https://vasafitness.com/",
+    "logo":"images/vasa.webp"
+},
+{
+    "name":"McDonalds",
+    "address":"4137 Pony Express Pkwy",
+    "phone":"801-789-2550",
+    "website":"https://www.mcdonalds.com/",
+    "logo":"images/mcdonalds.webp"
+},
+{
+    "name":"Dollar Tree",
+    "address":"4226 Pony Express Pkwy",
+    "phone":"385-345-9889",
+    "website":"https://www.dollartree.com/",
+    "logo":"images/dollartree.webp"
+}  ,
+{
+    "name":"Ace Hardware",
+    "address":"4045 Pony Express Pkwy",
+    "phone":"801-789-4995",
+    "website":"https://www.acehardware.com/",
+    "logo":"images/acehardware.webp"
+},
+{
+    "name":"Domino's Pizza",
+    "address":"4095 E Pony Express Pkwy Ste 4",
+    "phone":"801-789-5999",
+    "website":"https://pizza.dominos.com/",
+    "logo":"images/dominoes.webp"
+},
+{
+    "name":"Subway",
+    "address":"4095 East Pony Express Pkwy",
+    "phone":"801-789-7827",
+    "website":"https://restaurants.subway.com/",
+    "logo":"images/subway.webp"
+}
+
+]
+}
