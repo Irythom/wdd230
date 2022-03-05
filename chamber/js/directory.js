@@ -1,4 +1,4 @@
-const requestURL = "https://tyko1986.github.io/wdd230/chamber/JSON/directory.json";
+const requestURL = "https://irythom.github.io/wdd230/chamber/JSON/directory.json";
 const cards = document.querySelector('#cards');
 
 fetch(requestURL)
