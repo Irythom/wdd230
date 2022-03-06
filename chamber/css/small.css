@@ -348,42 +348,62 @@ li a {
   text-align: center;
 }
 
-.mainDirectory > div.grid > section {
+.mainDirectory div.grid section {
+  margin: 0 auto;
   text-align: center;
-  margin-bottom: 1em;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border: solid 1px black;
-  border-radius: 20px;
-  width: 280px;
-  background-color: #ec9a29;
+  border-radius: 9px;
+  width: 260px;
+  background-color: #f28123;
+  box-shadow: 5px 5px 5px #999;
 }
 
-.mainDirectory > div.list > section {
+.mainDirectory div.list section {
   justify-content: space-around;
   align-items: center;
-  background-color: #ec9a29;
+  background-color: #d34e24;
   max-width: 80%;
   margin: 0 auto;
+  border-radius: 9px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 5px #999;
 }
 
-.mainDirectory > div.list > section:nth-child(even) {
-  background-color: #ec9b299d;
+.mainDirectory div.list section:nth-child(even) {
+  background-color: #f28123;
 }
 
-.mainDirectory > div.list > section > img {
+.mainDirectory div.list section img {
   display: none;
+}
+
+.directoryIcons {
+  margin: 24px;
+}
+
+.gridmenubar,
+.listmenubar {
+  border: 3px solid black;
+  border-radius: 9px;
+  padding: 2px;
+  width: 48px;
+  height: 48px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.gridmenubar {
+  margin-right: 10px;
+}
+
+.listmenubar {
+  margin-left: 10px;
 }
 
 .directoryContent {
   margin: 0;
-}
-
-.directoryIcons {
-  margin: 1.5rem;
-}
-
-.iconMenu,
-.listMenu {
-  border: 3px solid black;
 }
 
 .directoryLogo {

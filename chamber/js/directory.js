@@ -48,8 +48,8 @@ function displayDirectory(company){
 
 
 
-let iconbtn = document.querySelector('.iconMenu');
-let listbtn = document.querySelector('.listMenu');
+let iconbtn = document.querySelector('.gridmenubar');
+let listbtn = document.querySelector('.listmenubar');
 let displayArea = document.querySelector('#cards');
 
 
