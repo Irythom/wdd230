@@ -31,8 +31,6 @@
     grid-column: 3 / 4;
     flex-direction: column;
     height: 92.75%;
-    padding-top: 15px;
-    padding-bottom: 15px;
   }
 
   #hero {
