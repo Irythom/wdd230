@@ -5,14 +5,20 @@
     "address":"4095 Pony Express Parkway #11",
     "phone":"801-789-2022",
     "website":"https://quenchitsoda.com/",
-    "logo":"images/quenchit.webp"
+    "logo":"images/quenchit.webp",
+    "membershiplevel": "gold",
+    "motto": "Quench your thirst!",
+    "email": "quenchit@gmail.com"
 },
 {
     "name":"The Ranches Golf Club",
     "address":"4128 E.  Clubhouse Ln.",
     "phone":"801-789-8100",
     "website":"https://theranchesgolfclub.com/",
-    "logo":"images/golfclublogo.webp"
+    "logo":"images/golfclublogo.webp",
+    "membershiplevel": "gold",
+    "motto": "The course hidden in the hills",
+    "email": "ranchesgolf@gmail.com"
 },
 {
     "name":"Bubba's Candy Shop",
@@ -40,7 +46,10 @@
     "address":"3535 Ranches Pkwy",
     "phone":"801-789-4700",
     "website":"http://www.sixsistersdeli.com/",
-    "logo":"images/sixsisters.webp"
+    "logo":"images/sixsisters.webp",
+    "membershiplevel": "gold",
+    "motto": "Six sisters is better than one!",
+    "email": "sixsistersdeli@gmail.com"
 },
 {
     "name":"Vasa Fitness",
