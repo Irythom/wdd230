@@ -11,7 +11,7 @@
     "email": "quenchit@gmail.com"
 },
 {
-    "name":"The Ranches Golf Club",
+    "name":"Ranches Golf",
     "address":"4128 E.  Clubhouse Ln.",
     "phone":"801-789-8100",
     "website":"https://theranchesgolfclub.com/",
@@ -32,7 +32,10 @@
     "address":"4019 E Pony Express Pkwy",
     "phone":"801-789-4166",
     "website":"https://www.jiffylube.com/",
-    "logo":"images/jiffylube.webp"
+    "logo":"images/jiffylube.webp",
+    "membershiplevel": "gold",
+    "motto": "Leave worry behind.",
+    "email": "jiffylube@gmail.com"
 },
 {
     "name":"Ridley's Grocery Store and Pharmacy",
@@ -42,7 +45,7 @@
     "logo":"images/ridleys.webp"
 },
 {
-    "name":"Six Sisters Deli & Grille",
+    "name":"Six Sisters",
     "address":"3535 Ranches Pkwy",
     "phone":"801-789-4700",
     "website":"http://www.sixsistersdeli.com/",
@@ -56,7 +59,10 @@
     "address":"1532 N Exchange Drive",
     "phone":"801-766-8272",
     "website":"https://vasafitness.com/",
-    "logo":"images/vasa.webp"
+    "logo":"images/vasa.webp",
+    "membershiplevel": "gold",
+    "motto": "Happiness through physical health!",
+    "email": "vasafitness@gmail.com"
 },
 {
     "name":"McDonalds",

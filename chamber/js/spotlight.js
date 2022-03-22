@@ -1,13 +1,13 @@
 const resquestURL = 'https://irythom.github.io/wdd230/chamber/JSON/directory.json';
-const spotlightBoxMain = document.querySelector('.spotlightBoxMain');
+const outsidebox = document.querySelector('#outside-box');
 
 fetch(resquestURL)
   .then(function (repsone){
     return repsone.json();
   })
   .then(function (jsonObject) {
-    const directory = jsonObject['directory'];
-    let gold = directory.filter(directory => (directory.membershiplevel === 'gold'));
+    const businesses = jsonObject['directory'];
+    let gold = businesses.filter(businesses => (businesses.membershiplevel === 'gold'));
     for (i=0; i<3; i++) {
       x = Math.floor(Math.random() * gold.length)
       displaySpotight(gold[x], `spot${i+1}`);
@@ -16,11 +16,13 @@ fetch(resquestURL)
   });
 
   function displaySpotight(business, spot) {
+    console.log("anything here ", business)
     // Create elements for spotlight boxes
     let spotlightBox = document.createElement('div');
     spotlightBox.classList.add('placeholderBox', 'spotlightBox', `${spot}`)
+    console.log("hey outside box ", outsidebox)
     let spotlightSection = document.createElement('section');
-    let businessName = document.createElement('h3');
+    let businessName = document.createElement('h2');
     let logo = document.createElement('img');
     let motto = document.createElement('p');
     let info = document.createElement('div');
@@ -29,13 +31,15 @@ fetch(resquestURL)
     let phone =  document.createElement('p');
 
     // Add textContent property to fill spotlight boxes
-    businessName.textContent = `${business.businessname}`;
+    businessName.textContent = `${business.name}`;
     motto.textContent = `${business.motto}`;
     email.textContent = `${business.email}`;
-    phone.textContent = `Phone: ${business.cellphone}`;
+    phone.textContent = `Phone: ${business.phone}`;
 
     // Set img attributes for logos
-    logo.setAttribute('src', business.imageurl);
+    businessName.setAttribute ('class', `grayBoxH2`)
+    logo.setAttribute('class', `grayBoxImg`)
+    logo.setAttribute('src', business.logo);
     logo.setAttribute('alt', `Logo of ${business.businessName}`)
 
     // Add business information to the spotlight section
@@ -45,10 +49,10 @@ fetch(resquestURL)
     info.appendChild(email);
     info.appendChild(phone);
 
-    // Add the two sections to the spotlightBoxMain div    
+    // Add the two sections to the outside-box div    
     spotlightBox.appendChild(spotlightSection);
     spotlightBox.appendChild(info);
 
-    spotlightBoxMain.appendChild(spotlightBox)
+    outsidebox.appendChild(spotlightBox)
 
   }
