@@ -26,7 +26,7 @@ fetch(resquestURL)
     let logo = document.createElement('img');
     let motto = document.createElement('p');
     let info = document.createElement('div');
-    info.classList.add('info');
+    info.classList.add('grayBoxInfo');
     let email = document.createElement('p');
     let phone =  document.createElement('p');
 

@@ -7,12 +7,6 @@
     display: block;
   }
 
-  #inner-box3 {
-    display: block;
-    width: 100%;
-    height: 75%;
-  }
-
   .small {
     display: block;
   }
@@ -73,15 +67,6 @@
   #news {
     grid-row: 3 / 4;
     grid-column: 2 / 3;
-  }
-
-  #inner-box1,
-  #inner-box2 {
-    width: 100%;
-    height: 75%;
-    margin-bottom: 15px;
-    margin-left: 0px;
-    margin-right: 0px;
   }
 
   .navigation {
