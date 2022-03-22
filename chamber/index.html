@@ -19,6 +19,12 @@
   </head>
   <body>
     <header>
+      <div class="bannertext">
+        <p>
+          🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
+          p.m.
+        </p>
+      </div>
       <div class="top">
         <div class="logo">
           <picture>
@@ -101,11 +107,15 @@
         <li><a href="discover.html"> Discover </a></li>
         <li><a href="directory.html">Directory</a></li>
         <li><a href="join.html">Join</a></li>
-        <li><a href="">Contact</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </header>
-    <div class="banner">
-      <div class="bannercontent">
+
+    <main id="indexmain">
+      <div id="hero" class="gray-box">
+        <h2 id="herowelcome">
+          Welcome <span class="small">to Eagle Mountain</span>
+        </h2>
         <picture class="eaglemountain">
           <source
             srcset="images/heroimgMedium.webp"
@@ -117,20 +127,18 @@
           />
           <img src="images/heroimgSmall.webp" alt="Hero image" />
         </picture>
-        <div class="bannertext">
-          <p>
-            🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00
-            p.m.
-          </p>
-        </div>
-      </div>
-    </div>
-    <main id="indexmain">
-      <div id="hero" class="gray-box">
-        <h2 class="grayBoxH2">Hero with site name and call to action</h2>
+        <a id="heroJoin" href="join.html"
+          >Join <span class="small">The Chamber</span></a
+        >
       </div>
       <div id="event" class="gray-box">
-        <h2 class="grayBoxH2">Event</h2>
+        <h2 class="grayBoxH2">Grand Opening</h2>
+        <h3>Tucker's Auto</h3>
+        <p class="tucker">
+          Join us the the grand opening for the grand opening of Tucker's Auto,
+          Tuesday the 29th at 10:00 a.m.
+        </p>
+        <a href="#">more info...</a>
       </div>
       <div id="weather" class="gray-box">
         <h2 class="grayBoxH2">Weather</h2>
@@ -146,20 +154,64 @@
       </div>
       <div id="news" class="gray-box">
         <h2 class="grayBoxH2">News Release</h2>
+        <p class="tucker">
+          Trampoline City's CEO, Trevor Burnheist, made an annoucement to the
+          city, saying, "When you buy four trampolines at $375, get the fifth
+          for $400!"
+        </p>
+        <p class="tucker">
+          The local hit, Snoasis, has burned to the ground. As a result of this,
+          we will be putting together a gofundme in an attempt to help them get
+          back on their feet!
+        </p>
       </div>
       <div id="join" class="gray-box">
         <h2 class="grayBoxH2">Join</h2>
+        <p>
+          Discover how to join our organization, and the benefits that your
+          company receives in doing so!
+        </p>
+        <h3><a href="join.html" class="joinBtn">Join</a></h3>
       </div>
 
       <div id="outside-box">
         <div id="inner-box1" class="inner-boxes">
-          <h2 class="grayBoxH2">Spotlight 1</h2>
+          <h2 class="grayBoxH2">Quench It!</h2>
+          <img
+            class="grayBoxImg"
+            src="images/quenchit.webp"
+            alt="Quench It! logo"
+          />
+          <p class="grayBoxP">"Quench your thirst!"</p>
+          <div class="grayBoxInfo">
+            <p>quenchit@gmail.com</p>
+            <p>Phone: (801)789-2022</p>
+          </div>
         </div>
         <div id="inner-box2" class="inner-boxes">
-          <h2 class="grayBoxH2">Spotlight 2</h2>
+          <h2 class="grayBoxH2">The Ranches Golf Club</h2>
+          <img
+            class="grayBoxImg"
+            src="images/golfclublogo.webp"
+            alt="The Ranches Golf Club logo"
+          />
+          <p class="grayBoxP">"The course hidden in the hills."</p>
+          <div class="grayBoxInfo">
+            <p>ranchesgolf@gmail.com</p>
+            <p>Phone: (801)789-8100</p>
+          </div>
         </div>
         <div id="inner-box3" class="inner-boxes">
-          <h2 class="grayBoxH2">Spotlight 3</h2>
+          <h2 class="grayBoxH2">Six Sisters</h2>
+          <img
+            class="grayBoxImg"
+            src="images/sixsisters.webp"
+            alt="Six Sisters Deli and Grille logo"
+          />
+          <p class="grayBoxP">"Six sisters is better than one!"</p>
+
+          <p>sixsistersdeli@gmail.com</p>
+          <p>Phone: (801)789-4700</p>
         </div>
       </div>
     </main>
