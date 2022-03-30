@@ -1,0 +1,28 @@
+@media only screen and (min-width: 1000px) {
+  .navigation li:first-child {
+    display: none;
+  }
+
+  .navigation li:not(:first-child) {
+    display: block;
+  }
+
+  .navigation {
+    flex-direction: row;
+  }
+
+  .logo h1 {
+    font-size: 2em;
+  }
+  .motto h2 {
+    font-size: 1em;
+  }
+  .footertop {
+    display: flex;
+    justify-content: space-between;
+  }
+  .contactinfo {
+    padding-top: 40px;
+    padding-right: 25px;
+  }
+}
