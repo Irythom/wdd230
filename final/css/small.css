@@ -267,3 +267,10 @@ main {
   padding-right: 10px;
   padding-bottom: 10px;
 }
+
+/* TEMPLES PAGE CONTENT */
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}

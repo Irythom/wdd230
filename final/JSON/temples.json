@@ -43,6 +43,28 @@
     "ordinance": "All ordinances are available by appointment only.",
     "session": "Proxy ordinances may be limited to members residing in their designated temple district.",
     "closure": "Saturday, 2 April 2022. Monday, 18 April 2022 - Monday, 25 April 2022. Tuesday, 21 June 2022 (Limited Operations). Monday, 19 September 2022 - Monday, 19 December 2022. Saturday, 24 December 2022."
+},
+{
+    "name":"Mesa Arizona Temple",
+    "address":"101 S LeSueur, Mesa AZ 85204-1031, United States",
+    "phone":"(1) 480-833-1211",
+    "email": "",
+    "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+    "history": "1 October 1919 - Announced, 25 April 1922 - Groundbreaking, 23 October 1927 - Dedicated, 15 April 1975 - Rededicated, 12 December 2021 - Rededicated",
+    "ordinance": "All ordinances are available by appointment only.",
+    "session": "Proxy ordinances may be limited to members residing in their designated temple district.",
+    "closure": "Saturday, 2 April 2022. Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations). Monday, 18 July 2022 - Monday, 1 August 2022. Saturday, 1 October 2022. Wednesday, 23 November 2022 (Limited Operations). Thursday, 24 November 2022. Saturday, 24 December 2022."
+},
+{
+    "name":"Bern Switzerland Temple",
+    "address":"Tempelstrasse 2, CH-3052 Zollikofen, Switzerland",
+    "phone":"(41) 31-915-5252",
+    "email": "",
+    "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby.",
+    "history": "1 July 1952 - Announced, 5 August 1953 - Groundbreaking, 11 September 1955 - Dedicated, 23 October 1992 - Rededicated.",
+    "ordinance": "All ordinances are available by appointment only.",
+    "session": "Proxy ordinances may be limited to members residing in their designated temple district.",
+    "closure": "Monday, 13 June 2022 - Monday, 27 June 2022. Saturday, 24 December 2022. Saturday, 31 December 2022."
 }
 
 ]
