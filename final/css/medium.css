@@ -1,4 +1,5 @@
 @media only screen and (min-width: 600px) {
+  /* HEADER AND FOOTER CONTENT */
   .navigation li:first-child {
     display: none;
   }
@@ -7,7 +8,8 @@
     display: block;
   }
 
-  .navigation {
+  .navigation,
+  .navigation2 {
     flex-direction: row;
   }
 
@@ -26,5 +28,45 @@
   .contactinfo {
     padding-top: 40px;
     padding-right: 25px;
+  }
+  /* MAIN CONTENT */
+
+  .row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+
+  .aboutus {
+    grid-column: 1/2;
+    margin-bottom: 0px;
+  }
+
+  .templeinfo {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .contact {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: 0px;
+    margin-bottom: 15px;
+  }
+
+  .weather {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .forecast {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 0px;
   }
 }

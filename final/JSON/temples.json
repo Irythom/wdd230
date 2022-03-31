@@ -1,0 +1,49 @@
+{
+    "temples":[
+{
+    "name":"Provo City Center Temple",
+    "address":"50 South University Ave, Provo UT 84601, United States",
+    "phone":"(1) 801-343-2700",
+    "email": "",
+    "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+    "history": "1 October 2011 - Temple was announced, 12 May 2012 - Groundbreaking, 20 March 2016 - Dedicated",
+    "ordinance": "All ordinances are available by appointment only.",
+    "session": "Proxy ordinances may be limited to members residing in their designated temple district.",
+    "closure": "Saturday, 2 April 2022. Monday, 20 June 2022 - Monday, 4 July 2022. Saturday, 1 October 2022. Wednesday, 23 November 2022 (Limited Operations). Thursday, 24 November 2022. Monday, 28 November 2022 - Monday, 12 December 2022. Saturday, 24 December 2022. Saturday, 31 December 2022."
+},
+{
+    "name":"Nauvoo Illinois Temple",
+    "address":"50 N Wells St, Nauvoo IL 62354, United States, Telephone",
+    "phone":"(1) 217-453-6252",
+    "email": "",
+    "services": "Clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+    "history": "4 April 1999 - Announced, 24 October 1999 - Groundbreaking, 27 June 2002 - Dedicated",
+    "ordinance": "All ordinances are available by appointment only.",
+    "session": "Proxy ordinances may be limited to members residing in their designated temple district.",
+    "closure": "Monday, 28 March 2022 - Monday, 23 May 2022. Monday, 26 September 2022 - Monday, 24 October 2022. Thursday, 24 November 2022, Saturday, 24 December 2022, Saturday, 31 December 2022."
+},
+{
+    "name":"Los Angeles California Temple",
+    "address":"10777 Santa Monica Blvd, Los Angeles CA 90025-4718, United States",
+    "phone":"(1) 310-474-5569",
+    "email": "",
+    "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+    "history": "6 March 1937 - Announced, 22 September 1951 - Groundbreaking, 11 March 1956 - Dedicated",
+    "ordinance": "All ordinances are available by appointment only.",
+    "session": "Proxy ordinances may be limited to members residing in their designated temple district.",
+    "closure": "Saturday, 2 April 2022. Monday, 11 July 2022 - Monday, 1 August 2022. Saturday, 1 October 2022. Tuesday, 22 November 2022 - Thursday, 24 November 2022. Saturday, 24 December 2022. Saturday, 31 December 2022."
+},
+{
+    "name":"Kansas City Missouri Temple",
+    "address":"7001 Searcy Creek Pkwy, Kansas City MO 64119-5336, United States",
+    "phone":"(1) 816-413-1430",
+    "email": "",
+    "services": "Clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+    "history": "4 October 2008 - Announced, 8 May 2010 - Groundbreaking, 6 May 2012 - Dedicated",
+    "ordinance": "All ordinances are available by appointment only.",
+    "session": "Proxy ordinances may be limited to members residing in their designated temple district.",
+    "closure": "Saturday, 2 April 2022. Monday, 18 April 2022 - Monday, 25 April 2022. Tuesday, 21 June 2022 (Limited Operations). Monday, 19 September 2022 - Monday, 19 December 2022. Saturday, 24 December 2022."
+}
+
+]
+}

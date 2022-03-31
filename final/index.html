@@ -13,9 +13,10 @@
       href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
+    <script defer src="js/weather.js"></script>
     <script defer src="js/javascript.js"></script>
   </head>
   <body>
@@ -35,63 +36,141 @@
         </div>
         <div class="motto"><h2>"Making Temples accessible to all."</h2></div>
         <div class="social">
-          <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook logo" width="40" /></a>
-          <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="Linkedin logo" width="40" /></a>
+          <a href="https://www.facebook.com/"
+            ><img src="images/facebook.png" alt="Facebook logo" width="40"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="images/linkedin.png" alt="Linkedin logo" width="40"
+          /></a>
         </div>
       </div>
-      <nav class="navigation">
+      <div class="navigation">
         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-          <li><a href="index.html"> Home </a></li>
-          <li><a href="locations.html"> Locations </a></li>
-          <li><a href="services.html"> Services </a></li>
-          <li><a href="reservation.html"> Reservations </a></li>
-        </ul>
-      </nav>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="locations.html"> Locations </a></li>
+        <li><a href="services.html"> Services </a></li>
+        <li><a href="reservation.html"> Reservations </a></li>
+      </div>
     </header>
     <main>
-        <div class="calltoaction">
-            <picture>
-                <img src="" alt="">
-            </picture>
+      <div class="calltoaction">
+        <picture>
+          <img src="images/calltoaction.webp" alt="Washington D.C. Temple" />
+        </picture>
+        <a href="reservation.html" target="_blank" class="calltoactionlink"
+          >Make your reservation!</a
+        >
+      </div>
+      <div class="row1">
+        <div class="mainbox aboutus">
+          <h2 class="boxh2">About Us</h2>
+          <p class="boxp">
+            The Temple Inn & Suites is a hotel chain headquartered in Bethesda,
+            MD that builds and manages specialized hotel accommodations near
+            temple locations of The Church of Jesus Christ of Latter-day Saints
+            around the world. The owner-operated company caters to temple
+            workers, patrons, and their families by providing specialized
+            services and accommodations that meet the needs of those patrons.
+            The hotel accommodations and services are available to anyone
+            willing to abide by the terms and policies outlined by the company.
+            For Locations, Services, or to set up a reservation, view our
+            navigation bar at the top of the page.
+          </p>
         </div>
-    </main>
-    <footer>
-        <div class="footer">
-          <div class="footertop">
-              <div class="footerlogo">
-                <img
-                  src="images/templelogo.webp"
-                  alt="Temple Inn & Suites Logo"
-                  width="120"
-                />
-              </div>
-              <address class="addressBox">
-                <p>Temple Inn & Suites</p>
-                <p>4800 Montgomery Ln #300</p>
-                <p>Bethesda, MD 20814</p>
-              </address>
-            <div class="contactinfo">
-              <a href="contact.html" class="footerlink" target="_blank">Contact us</a>
-              <a
-                id="googlemaps"
-                href="https://www.google.com/maps/place/3477+E+Ridge+Rte+Rd,+Eagle+Mountain,+UT+84005/@40.3644345,-111.9793183,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7c4a6edbb66d:0x28af824051b40640!8m2!3d40.3644304!4d-111.9771296" target="blank"><img src="images/google-maps.jpg" alt="google maps link"
-              /></a>
-            </div>
+        <div class="mainbox templeinfo">
+          <picture>
+            <img
+              src="images/provocitycenter.webp"
+              alt="Provo City Center Temple"
+          /></picture>
+          <h2 class="boxh2">Temple Highlight</h2>
+          <p id="templeinfop" class="boxp">
+            The Provo City Center Temple is a temple of The Church of Jesus
+            Christ of Latter-day Saints on the same site as the former Provo
+            Tabernacle in Provo, Utah. Completed in 2016, the temple utilizes
+            much of the external shell of the tabernacle, all that remained of
+            the original building after a fire in December 2010. Visit our
+            Locations page for more details
+          </p>
+          <a href="locations.html" target="_submit" class="locationslink"
+            >Visit Now!</a
+          >
+        </div>
+        <div class="mainbox contact">
+          <h2 class="boxh2">Contact Us</h2>
+          <p class="boxp">
+            We would love to hear from you!
+            <a href="contact.html" target="_blank"
+              >Head over to our contact page,</a
+            >
+            contact us through our phone at (301)-274-2938, or email us at
+            templeinn@gmail.com. You can also visit our offices at Temple Inn &
+            Suites 4800 Montgomery Ln #300 Bethesda, MD 20814! Offices open from
+            7 AM to 5 PM Monday - Friday
+          </p>
+        </div>
+        <div class="mainbox weather">
+          <h2 class="boxh2">Weather</h2>
+          <div id="weatherConditions">
+            <img id="icon" src="placeholder" alt="placeholder" />
+            <p><span id="t"></span>°F</p>
+          </div>
+          <p class="weatherP">Humidity: <span id="humidity"></span>%</p>
+          <p class="weatherP"><span id="description"></span></p>
+          <div id="weatherWind">
+            <p class="weatherP">Wind Speed: <span id="s"></span></p>
+            <p id="lastweatherp" class="weatherP">
+              Wind Chill: <span id="w"></span>
+            </p>
           </div>
         </div>
-        <p class="footermiddle">
-          We'd like to give credit where due. Please visit our
-          <a
-            class="footerlink"
-            href="reference.html"
-            target="_blank"
-            >resource/attribution page.</a
-          >
-        </p>
-        <div class="footerbottom">
-          <p>
-            © <span id="year"></span> Temple Inn & Suites | <strong>Ryan Weinheimer</strong> | WDD 230 Project | Last Modification: <span id="lastmod"></span></p>
+        <div class="mainbox forecast">
+          <h2 class="boxh2">Forecast</h2>
+          <div id="subbox1" class="subbox"></div>
+          <div id="subbox2" class="subbox"></div>
+          <div id="subbox3" class="subbox"></div>
         </div>
-      </footer>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footertop">
+          <div class="footerlogo">
+            <img
+              src="images/templelogo.webp"
+              alt="Temple Inn & Suites Logo"
+              width="120"
+            />
+          </div>
+          <address class="addressBox">
+            <p>Temple Inn & Suites</p>
+            <p>4800 Montgomery Ln #300</p>
+            <p>Bethesda, MD 20814</p>
+          </address>
+          <div class="contactinfo">
+            <a href="contact.html" target="_blank">Contact us</a>
+            <a
+              id="googlemaps"
+              href="https://www.google.com/maps/place/3477+E+Ridge+Rte+Rd,+Eagle+Mountain,+UT+84005/@40.3644345,-111.9793183,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7c4a6edbb66d:0x28af824051b40640!8m2!3d40.3644304!4d-111.9771296"
+              target="blank"
+              ><img src="images/google-maps.jpg" alt="google maps link"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <p class="footermiddle">
+        We'd like to give credit where due. Please visit our
+        <a class="footerlink" href="reference.html" target="_blank"
+          >resource/attribution page.</a
+        >
+      </p>
+      <div class="footerbottom">
+        <p>
+          © <span id="year"></span> Temple Inn & Suites |
+          <strong>Ryan Weinheimer</strong> | WDD 230 Project | Last
+          Modification: <span id="lastmod"></span>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
