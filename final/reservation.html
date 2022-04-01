@@ -52,7 +52,115 @@
         <li><a href="reservation.html"> Reservations </a></li>
       </div>
     </header>
-    <main></main>
+    <main class="mainforms">
+      <form action="thankyou.html" method="get">
+        <fieldset>
+          <legend></legend>
+          <div>
+            <label for="suite">Suite location:</label>
+            <select
+              name="suite"
+              id="suite"
+              class="select contactinput"
+              required
+            >
+              <option value="provo">Provo City Center Temple</option>
+              <option value="nauvoo">Nauvoo Illinois Temple</option>
+              <option value="la">Los Angeles California Temple</option>
+              <option value="kcmo">Kansas City Missouri Temple</option>
+              <option value="mesa">Mesa Arizona Temple</option>
+              <option value="bern">Bern Switzerland Temple</option>
+            </select>
+            <label
+              >Reservation dates*<input
+                class="input contactinput"
+                type="text"
+                name="date"
+                placeholder="2/23/22 - 2/27/22"
+                required
+            /></label>
+            <label for="rooms">Number of Rooms:</label>
+            <select
+              name="rooms"
+              id="rooms"
+              class="select contactinput"
+              required
+            >
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+            </select>
+            <label for="type">Room Type</label>
+            <select name="type" id="type" class="select contactinput" required>
+              <option value="short">Standard Suite</option>
+              <option value="long">
+                Long-term Suite (Full-time Temple Missionaries only)
+              </option>
+            </select>
+            <label
+              >First Name*<input
+                class="input contactinput"
+                type="text"
+                name="fname"
+                placeholder="John"
+                required
+            /></label>
+            <label
+              >Last Name*<input
+                class="input contactinput"
+                type="text"
+                name="lname"
+                placeholder="Smith"
+                required
+            /></label>
+            <label
+              >Email*<input
+                class="input contactinput"
+                type="email"
+                name="email"
+                placeholder="you@email.com"
+                required
+            /></label>
+            <label
+              >Phone Number*<input
+                class="input contactinput"
+                type="tel"
+                name="phone"
+                placeholder="(xxx)xxx-xxxx"
+                required
+            /></label>
+            <label
+              >Residence State and/or Country*<input
+                class="input contactinput"
+                type="text"
+                name="statecountry"
+                placeholder="Colorado, United States"
+                required
+            /></label>
+          </div>
+          <label>
+            Accommodations / Comments
+            <textarea
+              class="input"
+              name="description"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </label>
+          <input type="hidden" name="dateTime" id="dateTime" value="" />
+          <section>
+            <input
+              class="contactlink"
+              type="submit"
+              value="Make your Reservation"
+            />
+          </section>
+        </fieldset>
+      </form>
+    </main>
     <footer>
       <div class="footer">
         <div class="footertop">
