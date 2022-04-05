@@ -16,8 +16,6 @@ fetch(apiURL)
         const weatherDescription = jsObject.weather[0].description;
         const weatherHumidity = jsObject.main.humidity;
 
-        console.log(weatherHumidity)
-
         temp.textContent = currentTemp.toFixed(0);
         icon.setAttribute('src', weatherIcon);
         icon.setAttribute('alt', weatherDescription);

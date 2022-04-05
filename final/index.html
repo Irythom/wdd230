@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/weather.js"></script>
     <script defer src="js/javascript.js"></script>
+    <script defer src="js/forecast.js"></script>
   </head>
   <body>
     <header>
@@ -55,7 +56,11 @@
     <main>
       <div class="calltoaction">
         <picture>
-          <img src="images/calltoaction.webp" alt="Washington D.C. Temple" />
+          <img
+            src="images/calltoaction.webp"
+            alt="Washington D.C. Temple"
+            loading="lazy"
+          />
         </picture>
         <a href="reservation.html" target="_blank" class="calltoactionlink"
           >Make your reservation!</a
@@ -82,6 +87,7 @@
             <img
               src="images/provocitycenter.webp"
               alt="Provo City Center Temple"
+              loading="lazy"
           /></picture>
           <h2 class="boxh2">Temple Highlight</h2>
           <p id="templeinfop" class="boxp">
@@ -110,9 +116,9 @@
           </p>
         </div>
         <div class="mainbox weather">
-          <h2 class="boxh2">Weather</h2>
+          <h2 class="boxh2">Today's Weather</h2>
           <div id="weatherConditions">
-            <img id="icon" src="placeholder" alt="placeholder" />
+            <img id="icon" src="placeholder" alt="placeholder" loading="lazy" />
             <p><span id="t"></span>°F</p>
           </div>
           <p class="weatherP">Humidity: <span id="humidity"></span>%</p>
@@ -126,9 +132,39 @@
         </div>
         <div class="mainbox forecast">
           <h2 class="boxh2">Forecast</h2>
-          <div id="subbox1" class="subbox"></div>
-          <div id="subbox2" class="subbox"></div>
-          <div id="subbox3" class="subbox"></div>
+          <div id="subbox1" class="subbox">
+            <h3 id="day1" class="daysh3"></h3>
+            <div id="weatherConditions">
+              <p><span id="t1"></span>°F</p>
+            </div>
+            <p class="weatherP">Humidity: <span id="hum1"></span>%</p>
+            <p class="weatherP"><span id="desc1"></span></p>
+            <div>
+              <p class="weatherP">Wind Speed: <span id="speed1"></span></p>
+            </div>
+          </div>
+          <div id="subbox2" class="subbox">
+            <h3 id="day2" class="daysh3"></h3>
+            <div id="weatherConditions">
+              <p><span id="t2"></span>°F</p>
+            </div>
+            <p class="weatherP">Humidity: <span id="hum2"></span>%</p>
+            <p class="weatherP"><span id="desc2"></span></p>
+            <div>
+              <p class="weatherP">Wind Speed: <span id="speed2"></span></p>
+            </div>
+          </div>
+          <div id="subbox3" class="subbox">
+            <h3 id="day3" class="daysh3"></h3>
+            <div id="weatherConditions">
+              <p><span id="t3"></span>°F</p>
+            </div>
+            <p class="weatherP">Humidity: <span id="hum3"></span>%</p>
+            <p class="weatherP"><span id="desc3"></span></p>
+            <div>
+              <p class="weatherP">Wind Speed: <span id="speed3"></span></p>
+            </div>
+          </div>
         </div>
       </div>
     </main>
