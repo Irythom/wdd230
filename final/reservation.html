@@ -44,13 +44,13 @@
           /></a>
         </div>
       </div>
-      <div class="navigation">
+      <ul class="navigation">
         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
         <li><a href="index.html"> Home </a></li>
         <li><a href="locations.html"> Locations </a></li>
         <li><a href="services.html"> Services </a></li>
         <li><a href="reservation.html"> Reservations </a></li>
-      </div>
+      </ul>
     </header>
     <main class="mainforms">
       <form action="thankyou.html" method="get">
@@ -64,6 +64,7 @@
               class="select contactinput"
               required
             >
+              <option value="">Choose Location</option>
               <option value="provo">Provo City Center Temple</option>
               <option value="nauvoo">Nauvoo Illinois Temple</option>
               <option value="la">Los Angeles California Temple</option>
@@ -86,6 +87,7 @@
               class="select contactinput"
               required
             >
+              <option value="">Choose Number of Rooms</option>
               <option value="1">1</option>
               <option value="2">2</option>
               <option value="3">3</option>
@@ -95,6 +97,7 @@
             </select>
             <label for="type">Room Type</label>
             <select name="type" id="type" class="select contactinput" required>
+              <option value="">Choose Room Type</option>
               <option value="short">Standard Suite</option>
               <option value="long">
                 Long-term Suite (Full-time Temple Missionaries only)
@@ -151,13 +154,11 @@
             ></textarea>
           </label>
           <input type="hidden" name="dateTime" id="dateTime" value="" />
-          <section>
-            <input
-              class="contactlink"
-              type="submit"
-              value="Make your Reservation"
-            />
-          </section>
+          <input
+            class="contactlink"
+            type="submit"
+            value="Make your Reservation"
+          />
         </fieldset>
       </form>
     </main>

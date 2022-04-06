@@ -13,9 +13,9 @@
       href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Open+Sans&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/small.css">
-    <link rel="stylesheet" href="css/medium.css">
-    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/small.css" />
+    <link rel="stylesheet" href="css/medium.css" />
+    <link rel="stylesheet" href="css/large.css" />
     <script defer src="js/javascript.js"></script>
     <script defer src="js/temples.js"></script>
   </head>
@@ -36,64 +36,72 @@
         </div>
         <div class="motto"><h2>"Making Temples accessible to all."</h2></div>
         <div class="social">
-          <a href="https://www.facebook.com/"><img src="images/facebook.png" alt="Facebook logo" width="40" /></a>
-          <a href="https://www.linkedin.com/"><img src="images/linkedin.png" alt="Linkedin logo" width="40" /></a>
+          <a href="https://www.facebook.com/"
+            ><img src="images/facebook.png" alt="Facebook logo" width="40"
+          /></a>
+          <a href="https://www.linkedin.com/"
+            ><img src="images/linkedin.png" alt="Linkedin logo" width="40"
+          /></a>
         </div>
       </div>
-      <div class="navigation">
+      <ul class="navigation">
         <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
-          <li><a href="index.html"> Home </a></li>
-          <li><a href="locations.html"> Locations </a></li>
-          <li><a href="services.html"> Services </a></li>
-          <li><a href="reservation.html"> Reservations </a></li>
-        </ul>
-      </div>
+        <li><a href="index.html"> Home </a></li>
+        <li><a href="locations.html"> Locations </a></li>
+        <li><a href="services.html"> Services </a></li>
+        <li><a href="reservation.html"> Reservations </a></li>
+      </ul>
     </header>
     <main class="mainTemples">
-        <div>
-            <h3 class="templesh3">Please note that we at Temples Inn & Suites have available accommodations at all temple locations listed below. Make a <span><a href="reservation.html" class="h3a">reservation</a></span> today!</h3>
-        </div>
-        <div id="cards" class="grid"></div>
+      <div>
+        <h3 class="templesh3">
+          Please note that we at Temples Inn & Suites have available
+          accommodations at all temple locations listed below. Make a
+          <span><a href="reservation.html" class="h3a">reservation</a></span>
+          today!
+        </h3>
+      </div>
+      <div id="cards" class="grid"></div>
     </main>
     <footer>
-        <div class="footer">
-          <div class="footertop">
-            <div class="footerlogo">
-              <img
-                src="images/templelogo.webp"
-                alt="Temple Inn & Suites Logo"
-                width="120"
-              />
-            </div>
-            <address class="addressBox">
-              <p>Temple Inn & Suites</p>
-              <p>4800 Montgomery Ln #300</p>
-              <p>Bethesda, MD 20814</p>
-            </address>
-            <div class="contactinfo">
-              <a href="contact.html" target="_blank">Contact us</a>
-              <a
-                id="googlemaps"
-                href="https://www.google.com/maps/place/3477+E+Ridge+Rte+Rd,+Eagle+Mountain,+UT+84005/@40.3644345,-111.9793183,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7c4a6edbb66d:0x28af824051b40640!8m2!3d40.3644304!4d-111.9771296"
-                target="blank"
-                ><img src="images/google-maps.jpg" alt="google maps link"
-              /></a>
-            </div>
+      <div class="footer">
+        <div class="footertop">
+          <div class="footerlogo">
+            <img
+              src="images/templelogo.webp"
+              alt="Temple Inn & Suites Logo"
+              width="120"
+            />
+          </div>
+          <address class="addressBox">
+            <p>Temple Inn & Suites</p>
+            <p>4800 Montgomery Ln #300</p>
+            <p>Bethesda, MD 20814</p>
+          </address>
+          <div class="contactinfo">
+            <a href="contact.html" target="_blank">Contact us</a>
+            <a
+              id="googlemaps"
+              href="https://www.google.com/maps/place/3477+E+Ridge+Rte+Rd,+Eagle+Mountain,+UT+84005/@40.3644345,-111.9793183,17z/data=!3m1!4b1!4m5!3m4!1s0x874d7c4a6edbb66d:0x28af824051b40640!8m2!3d40.3644304!4d-111.9771296"
+              target="blank"
+              ><img src="images/google-maps.jpg" alt="google maps link"
+            /></a>
           </div>
         </div>
-        <p class="footermiddle">
-          We'd like to give credit where due. Please visit our
-          <a class="footerlink" href="reference.html" target="_blank"
-            >resource/attribution page.</a
-          >
+      </div>
+      <p class="footermiddle">
+        We'd like to give credit where due. Please visit our
+        <a class="footerlink" href="reference.html" target="_blank"
+          >resource/attribution page.</a
+        >
+      </p>
+      <div class="footerbottom">
+        <p>
+          © <span id="year"></span> Temple Inn & Suites |
+          <strong>Ryan Weinheimer</strong> | WDD 230 Project | Last
+          Modification: <span id="lastmod"></span>
         </p>
-        <div class="footerbottom">
-          <p>
-            © <span id="year"></span> Temple Inn & Suites |
-            <strong>Ryan Weinheimer</strong> | WDD 230 Project | Last
-            Modification: <span id="lastmod"></span>
-          </p>
-        </div>
-      </footer>
+      </div>
+    </footer>
   </body>
 </html>
